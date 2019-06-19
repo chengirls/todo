@@ -42,7 +42,6 @@ def about(request):
 
 
 def delete(request, forloop_counter):
-    global lst
     if request.method == "POST":
         forloop_counter = int(forloop_counter) - 1
         print(forloop_counter)
